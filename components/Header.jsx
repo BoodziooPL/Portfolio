@@ -14,7 +14,7 @@ export default function Header() {
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}>
       <motion.nav
-        initial={{ y: -200, opacity: 0, scale: 0.5 }}
+        initial={{ y: -80, opacity: 0, scale: 0.5 }}
         animate={{ y: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.8 }}
         className='flex bg-slate-300 justify-between rounded-md absolute bottom-2 w-[90%] ml-auto mr-auto left-0 right-0 py-2 px-2 lg:w-[60%] overflow-hidden '>
