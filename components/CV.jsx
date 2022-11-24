@@ -24,7 +24,7 @@ export default function CV() {
           <Image
             src={MyPhoto}
             alt='My photo'
-            className='object-cover w-[10rem] h-[10rem] rounded-full mx-auto border-4'
+            className='object-cover w-[10rem] h-[10rem] rounded-full mx-auto border-4 grayscale'
           />
           <h1 className='text-[2.2rem] '>Malik Boguslaw</h1>
           <p className='tracking-widest'>Junior Front-end Developer </p>
@@ -51,8 +51,10 @@ export default function CV() {
           </div>
 
           <div>
-            <AiOutlineExperiment className='reacticon' />
-            <p>Experience</p>
+            <Link href='./Experience'>
+              <AiOutlineExperiment className='reacticon' />
+              <p>Experience</p>
+            </Link>
           </div>
           <div>
             <Link href='https://github.com/BoodziooPL'>
