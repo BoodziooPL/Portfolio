@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { AiFillGithub } from 'react-icons/ai'
+import { AiOutlineLink } from 'react-icons/ai'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 
@@ -22,9 +23,14 @@ export default function Experience() {
             <span className='font-extrabold text-2xl'>
               Chrome Extension ToDoApp
             </span>
-            <Link href='https://github.com/BoodziooPL/ChromeExtensionTodo'>
-              <AiFillGithub className='smReactIcon' />
-            </Link>
+            <div className='flex items-center justify-center py-4'>
+              <Link href='https://github.com/BoodziooPL/ChromeExtensionTodo'>
+                <AiFillGithub className='smReactIcon' />
+              </Link>
+              <Link href='https://github.com/BoodziooPL/ChromeExtensionTodo'>
+                <AiOutlineLink className='smReactIcon' />
+              </Link>
+            </div>
           </div>
           <div className='md:w-[80%]'>
             <p>
@@ -39,15 +45,20 @@ export default function Experience() {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.8 }}
+          transition={{ duration: 0.8, delay: 1 }}
           className='w-[100%] h-[33%] lg:h-[50%] xl:h-[40%] flex flex-col justify-between  items-center'>
           <div>
             <span className='font-extrabold text-2xl'>
               CryptoCurrency Tracker
             </span>
-            <Link href='https://github.com/BoodziooPL/cryptoTracker'>
-              <AiFillGithub className='smReactIcon' />
-            </Link>
+            <div className='flex items-center justify-center py-4'>
+              <Link href='https://github.com/BoodziooPL/ChromeExtensionTodo'>
+                <AiFillGithub className='smReactIcon' />
+              </Link>
+              <Link href='https://heartfelt-marshmallow-00a3b1.netlify.app/'>
+                <AiOutlineLink className='smReactIcon' />
+              </Link>
+            </div>
           </div>
 
           <div className='md:w-[80%]'>
@@ -63,13 +74,18 @@ export default function Experience() {
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 2.8 }}
+          transition={{ duration: 0.8, delay: 1.2 }}
           className='w-[100%] h-[33%] lg:h-[50%] xl:h-[40%] flex flex-col justify-between  items-center'>
           <div>
             <span className='font-extrabold text-2xl'>Clock Alarm App</span>
-            <Link href='https://github.com/BoodziooPL/Clock_Alarm_App'>
-              <AiFillGithub className='smReactIcon' />
-            </Link>
+            <div className='flex items-center justify-center py-4'>
+              <Link href='https://github.com/BoodziooPL/ChromeExtensionTodo'>
+                <AiFillGithub className='smReactIcon' />
+              </Link>
+              <Link href='https://astonishing-concha-3ebf3e.netlify.app/'>
+                <AiOutlineLink className='smReactIcon' />
+              </Link>
+            </div>
           </div>
 
           <div className='md:w-[50%]'>

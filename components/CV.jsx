@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import MyPhoto from '../assets/justme.png'
-import { AiOutlinePhone } from 'react-icons/ai'
+import { SiLinkedin } from 'react-icons/si'
 import { AiOutlineMail } from 'react-icons/ai'
 import { ImMap2 } from 'react-icons/im'
 import { AiOutlineHeart } from 'react-icons/ai'
@@ -29,10 +29,12 @@ export default function CV() {
           <h1 className='text-[2.2rem] '>Malik Boguslaw</h1>
           <p className='tracking-widest'>Junior Front-end Developer </p>
           <div className='grid grid-rows-3 grid-flow-col items-center mb-2'>
-            <AiOutlinePhone className='contacticon' />
+            <SiLinkedin className='contacticon' />
             <AiOutlineMail className='contacticon' />
             <ImMap2 className='contacticon' />
-            <a href='tel:+48510740495'> 510-740-495</a>
+            <a href='tel:+www.linkedin.com/in/boguslaw-malik-824691129'>
+              My Linkedin Profile
+            </a>
             <a href='mailto:bogdanmalik@gmail.com'> bogdanmalik@gmail</a>
             <p>Krakow, Poland</p>
           </div>
@@ -46,8 +48,10 @@ export default function CV() {
             </Link>
           </div>
           <div>
-            <AiOutlineHeart className='reacticon' />
-            <p>Passions</p>
+            <Link href='./Passions'>
+              <AiOutlineHeart className='reacticon' />
+              <p>Passions</p>
+            </Link>
           </div>
 
           <div>

@@ -22,7 +22,7 @@ export default function Header() {
           <Image src={Cv} alt='cv icon' />
         </Link>
 
-        <Link href='/'>
+        <Link href='./Aboutme'>
           <Image src={Face} alt='face icon' />
         </Link>
 

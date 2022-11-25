@@ -10,8 +10,8 @@ import { TbBrandNextjs } from 'react-icons/tb'
 import { SiTailwindcss } from 'react-icons/si'
 import { AiFillGithub } from 'react-icons/ai'
 import { FcLinux } from 'react-icons/fc'
-import { BsWordpress } from 'react-icons/bs'
-import { SiTypescript } from 'react-icons/si'
+// import { BsWordpress } from 'react-icons/bs'
+// import { SiTypescript } from 'react-icons/si'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import Star from '../assets/star.png'
 import HalfStar from '../assets/rating.png'
@@ -22,7 +22,7 @@ export default function Skills() {
     <motion.div
       initial={{ opacity: 0, scale: 0, y: -300 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: 0.3 }}
+      transition={{ duration: 0.5 }}
       className='h-screen grid grid-rows-4 md:grid-rows-3 md:gap-2 grid-flow-col gap-4 justify-around items-end content-center overflow-hidden bg-[#464082] pb-4 text-center font-semibold text-white'>
       <div>
         <AiFillHtml5 alt='html' className='reacticon text-orange-800' />
@@ -30,16 +30,16 @@ export default function Skills() {
         <div className='flex justify-center star'>
           <Image src={Star} alt='Full Star icon' />
           <Image src={Star} alt='Full Star icon' />
-          <Image src={Star} alt='Full Star icon' />
+          <Image src={HalfStar} alt='Half Star icon' />
         </div>
       </div>
       <div>
         <DiCss3 className='reacticon text-blue-700' />
         <h2>CSS</h2>
-        <div className='flex justify-center star'>
+        <div className='flex justify-center star '>
           <Image src={Star} alt='Full Star icon' />
           <Image src={Star} alt='Full Star icon' />
-          <Image src={Star} alt='Full Star icon' />
+          <Image src={HalfStar} alt='Half Star icon' />
         </div>
       </div>
       <div>
@@ -96,7 +96,7 @@ export default function Skills() {
           <Image src={EmptyStar} alt='Empty Star icon' />
         </div>
       </div>
-      <div>
+      {/* <div>
         <BsWordpress className='reacticon  rounded-full' />
         <h2>Wordpress</h2>
         <div className='flex justify-center star'>
@@ -113,7 +113,7 @@ export default function Skills() {
           <Image src={EmptyStar} alt='Empty Star icon' />
           <Image src={EmptyStar} alt='Empty Star icon' />
         </div>
-      </div>
+      </div> */}
       <div className='absolute right-5 top-3 '>
         <Link href='/CvPage'>
           <AiOutlineCloseCircle className='closedico' />
