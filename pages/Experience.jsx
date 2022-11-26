@@ -9,14 +9,14 @@ export default function Experience() {
   return (
     <>
       <motion.div
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ y: -100, opacity: 0, scale: 0 }}
+        animate={{ y: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
         className='bg-[#464082] flex-col text-gray-300 min-h-screen items-center justify-center   lg:flex lg:flex-row lg:divide-x-2 text-center '>
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
           className='w-[100%] h-[33%] lg:h-[50%] xl:h-[40%] flex flex-col
           justify-between items-center'>
           <div>
@@ -45,7 +45,7 @@ export default function Experience() {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
           className='w-[100%] h-[33%] lg:h-[50%] xl:h-[40%] flex flex-col justify-between  items-center'>
           <div>
             <span className='font-extrabold text-2xl'>
@@ -74,7 +74,7 @@ export default function Experience() {
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
           className='w-[100%] h-[33%] lg:h-[50%] xl:h-[40%] flex flex-col justify-between  items-center'>
           <div>
             <span className='font-extrabold text-2xl'>Clock Alarm App</span>

@@ -26,7 +26,7 @@ export default function Header() {
           <Image src={Face} alt='face icon' />
         </Link>
 
-        <Link href='/'>
+        <Link href='./Project'>
           <Image src={Project} alt='project icon' />
         </Link>
 

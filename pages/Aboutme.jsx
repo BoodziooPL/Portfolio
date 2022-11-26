@@ -11,7 +11,7 @@ export default function aboutme() {
       initial={{ opacity: 0, scale: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className='bg-[#464082] w-full min-h-screen flex-col lg:flex lg:flex-row lg:justify-around lg:items-center text-center'>
+      className='bg-[#464082] w-full min-h-screen flex-col lg:flex lg:flex-row lg:justify-around lg:items-center text-center content-around'>
       <div>
         <Image
           src={Photo}
