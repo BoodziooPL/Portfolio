@@ -30,7 +30,7 @@ export default function Header() {
           <Image src={Project} alt='project icon' />
         </Link>
 
-        <Link href='/'>
+        <Link href='./Timeline'>
           <Image src={TimeLine} alt='timeline icon' />
         </Link>
       </motion.nav>

@@ -20,7 +20,7 @@ export default function aboutme() {
         />
       </div>
       <div className='lg:w-[50%] text-gray-300 space-y-4 px-12 '>
-        <h1 className='text-4xl font-bold'>Few words about me.</h1>
+        <h1 className='text-4xl font-bold'>A Few words about me.</h1>
         <p>
           Hi, my name is Boguslaw, my story with programming, started over 10
           years ago in middle school, when friend show me the first code of php
