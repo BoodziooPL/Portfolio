@@ -32,10 +32,10 @@ export default function aboutme() {
           create my own.After couples of days with google im done my first
           template, and later another one and another... Since that time, I
           gained more motivation to develop projects, and learning more about
-          programming. I'm done couple diffrent courses on udemy. CS50 shared
-          from harvard, and simple like SoloLearn on mobilephone. I want to take
-          a step forward and have a chance improve my skills. My main area where
-          i want develop is a frontend of online stores or blockchain.
+          programming. I done couple diffrent courses on udemy. CS50 shared from
+          harvard, and simple like SoloLearn on mobilephone. I want to take a
+          step forward and have a chance improve my skills. My main area where i
+          want develop is a frontend of online stores or blockchain.
         </p>
       </div>
       <div className='absolute right-5 top-3 '>

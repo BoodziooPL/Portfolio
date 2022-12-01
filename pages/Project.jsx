@@ -36,8 +36,8 @@ export default function Project() {
               <div className='w-[80%]'>
                 <p>
                   Weather app, created with course from udemy.com. In this
-                  project i'm learned a lot about working with API. After this,
-                  i created more app with data from API. (eg. Cryptocurrency
+                  project i learned a lot about working with API. After this, i
+                  created more app with data from API. (eg. Cryptocurrency
                   tracker).
                 </p>
               </div>
@@ -70,7 +70,7 @@ export default function Project() {
             <div className='flex flex-col h-full justify-around text-gray-300 items-center'>
               <div className='w-[80%]'>
                 <p>
-                  In this project i'm use API from rapidapi.com. This website
+                  In this project i use API from rapidapi.com. This website
                   generate random quotes famous people. To developed it i used a
                   React and Tailwind
                 </p>
@@ -105,8 +105,9 @@ export default function Project() {
             <div className='flex flex-col h-full justify-around text-gray-300 items-center'>
               <div className='w-[80%]'>
                 <p>
-                  My first project in NextJS and TailwindCSS. To create it i'm
-                  inspired theme: "NFT Card" from frontend mentor website.
+                  My first project in NextJS and TailwindCSS. To create it i
+                  inspired theme: <quote>NFT Card</quote> from frontend mentor
+                  website.
                 </p>
               </div>
               <div>
@@ -140,13 +141,13 @@ export default function Project() {
               <div className='w-[80%]'>
                 <p>
                   Simple News Home page. Coded only for 375 and 1440 Displays.
-                  Layout comes from frontendmentor website. Like i'm said, coded
+                  Layout comes from frontendmentor website. Like i said, coded
                   only for two displays (like in task). This is my first project
                   coded from this website.
                 </p>
               </div>
               <div>
-                <p>Used Technology:</p>{' '}
+                <p>Used Technology:</p>
                 <div className='flex items-center'>
                   <AiFillHtml5 className='smReactIcon' />
                   <DiCss3 className='smReactIcon' />
