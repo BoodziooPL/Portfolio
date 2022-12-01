@@ -1,10 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
-
+import { motion } from 'framer-motion'
 export default function Timeline() {
   return (
-    <div className='bg-[#464082] min-h-screen w-full flex justify-center items-center'>
+    <motion.div
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      className='bg-[#464082] min-h-screen w-full flex justify-center
+      items-center'>
       <div class='max-w-7xl mx-auto w-full grid grid-cols-9 px-2'>
         <div class='col-span-4 w-full h-full '>
           <div class='w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4'>
@@ -99,12 +104,11 @@ export default function Timeline() {
           </div>
         </div>
       </div>
-
       <div className='absolute right-5 top-3 '>
         <Link href='/'>
           <AiOutlineCloseCircle className='closedico' />
         </Link>
       </div>
-    </div>
+    </motion.div>
   )
 }

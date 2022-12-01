@@ -4,7 +4,7 @@ import MyPhoto from '../assets/justme.png'
 import { SiLinkedin } from 'react-icons/si'
 import { AiOutlineMail } from 'react-icons/ai'
 import { ImMap2 } from 'react-icons/im'
-import { AiOutlineHeart } from 'react-icons/ai'
+import { GiDiploma } from 'react-icons/gi'
 import { AiOutlineExperiment } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { GiPlantRoots } from 'react-icons/gi'
@@ -48,9 +48,9 @@ export default function CV() {
             </Link>
           </div>
           <div>
-            <Link href='./Passions'>
-              <AiOutlineHeart className='reacticon' />
-              <p>Passions</p>
+            <Link href='./Certification'>
+              <GiDiploma className='reacticon' />
+              <p>Certificates</p>
             </Link>
           </div>
 

@@ -28,6 +28,12 @@ body {
   height: 2rem;
   margin: auto;
 }
+.certification {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  object-fit: contain;
+}
 .PrIMG {
   object-fit: cover;
   border-radius: 10px;
