@@ -16,9 +16,8 @@ export default function Timeline() {
             <h1 class='text-white text-xl font-medium py-2'>2004</h1>
             <p class='text-gray-100 sm:text-sm text-xs'>
               My first PC, where im starting my story with IT. At this time very
-              popular source of knowledge was magazines like
-              <quote>"PC Format"</quote>, <quote>"Niezbednik"</quote> or
-              <quote>"Komputer Swiat"</quote>. It was a great time testing and
+              popular source of knowledge was magazines like PC Format,
+              Niezbednik or Komputer Swiat. It was a great time testing and
               having fun with trying every programs and toutorials from this
               magazines. Later I installed my first Linux Ubuntu 8.04 from the
               disc that comes with the magazine.
