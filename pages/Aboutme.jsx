@@ -23,19 +23,20 @@ export default function aboutme() {
         <h1 className='text-4xl font-bold'>A Few words about me.</h1>
         <p>
           Hi, my name is Boguslaw, my story with programming, started over 10
-          years ago in middle school, when friend show me the first code of php
-          and html. From this time, at every lesson information technology, we
+          years ago in middle school, when friend showed me the first code of
+          php and html. From then on, at every computer science classes , we
           created something, just for fun. I remember, even HTML template at
-          this time was created using table. After done High school, i started
-          selling diffrent thing on Allegro.pl in dropshipping system. At the
-          time, Allegro allows users to use their own template, so i decided
-          create my own.After couples of days with google im done my first
-          template, and later another one and another... Since that time, I
-          gained more motivation to develop projects, and learning more about
-          programming. I done couple diffrent courses on udemy. CS50 shared from
-          harvard, and simple like SoloLearn on mobilephone. I want to take a
-          step forward and have a chance improve my skills. My main area where i
-          want develop is a frontend of online stores or blockchain.
+          this time was created by table. After High school, i started selling
+          different goods on Allegro.pl using dropshipping system. At that time,
+          Allegro was allowing users to use their own auction template, so i
+          decided to create my own one. After a couple of googling days I
+          created my first template, and later another one and another... Since
+          that time, I gained more motivation to develop projects, and to learn
+          more about programming. I finished a few different courses on udemy.
+          CS50 shared by Harvard institution, and simple like SoloLearn on
+          mobilephone. I want to take a step forward and have a chance to
+          improve my skills. My main area where i want to develop myself is
+          frontend of online stores or / and blockchain
         </p>
       </div>
       <div className='absolute right-5 top-3 '>

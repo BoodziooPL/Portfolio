@@ -35,9 +35,10 @@ export default function Experience() {
           <div className='md:w-[80%]'>
             <p>
               Simple project created using HTML/CSS/JS/LocalStorage in Chrome.
-              This project learned me a lot about saving things in LocalStorage,
-              and working with arrays in JS. I also learned something more about
-              working with chrome extension, and setting up JSON files for this.
+              Working on this project taught me a lot about saving things in
+              LocalStorage, and working with arrays in JS. I also learned
+              something more about working with chrome extension, and setting up
+              JSON files for this.
             </p>
           </div>
         </motion.div>
@@ -62,8 +63,8 @@ export default function Experience() {
 
           <div className='md:w-[80%]'>
             <p>
-              Application for price tracking cryptocurrency. In this project, i
-              learned a lot about work with API. (im use here free api from
+              Cryptocurrency Price Tracking App. In this project, i learned a
+              lot about work with API. (I am using here free api from
               rapidapi.com). Also in working on this project i geted more
               experience about searching phrase in website. But the important
               things to learn here for me was a working with API.
@@ -89,9 +90,9 @@ export default function Experience() {
 
           <div className='md:w-[50%]'>
             <p>
-              App created for me and for fun. Created because sometimes i had a
-              problem with wake up :) So i decided having a own wake up clock.
-              To create logic i used a Vanilla JS and that is it...
+              App was created for me and for fun. Created because sometimes i
+              had a problem with wake up :) So i decided having a own wake up
+              clock. To create logic i used a Vanilla JS and that is it...
             </p>
           </div>
         </motion.div>

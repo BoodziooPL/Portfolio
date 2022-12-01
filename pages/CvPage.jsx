@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../components/CV'
+import CV from './CV'
 import { motion } from 'framer-motion'
 
 export default function CvPage() {
