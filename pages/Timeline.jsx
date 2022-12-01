@@ -2,9 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 
-const handlerClick = () => {
-  console.log(object)
-}
 export default function Timeline() {
   return (
     <div className='bg-[#464082] min-h-screen w-full flex justify-center items-center'>
@@ -12,7 +9,14 @@ export default function Timeline() {
         <div class='col-span-4 w-full h-full '>
           <div class='w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4'>
             <h1 class='text-white text-xl font-medium py-2'>2004</h1>
-            <p class='text-gray-100 sm:text-sm text-xs'>First PC</p>
+            <p class='text-gray-100 sm:text-sm text-xs'>
+              My first PC, where im starting my story with IT. At this time very
+              popular source of knowledge was magazines like "PC Format",
+              "Niezbednik" or "Komputer Swiat". It was a great time testing and
+              having fun with trying every programs and toutorials from this
+              magazines. Later I installed my first Linux Ubuntu 8.04 from the
+              disc that comes with the magazine.
+            </p>
           </div>
         </div>
         <div class='relative col-span-1 w-full h-full flex justify-center items-center'>
@@ -34,10 +38,10 @@ export default function Timeline() {
           <div class='w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4'>
             <h1 class='text-white text-xl font-medium py-2'>2010</h1>
             <p class='text-gray-100 sm:text-sm text-xs'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-              corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-              quas omnis vero totam ullam, reprehenderit ratione pariatur
-              accusamus suscipit odit nostrum?
+              In the middle school i met with my first code. With friend on the
+              IT lessons, we creating simple templates in HTML and CSS. We
+              trying too use some PHP. With ideas from MPCforum we set up first
+              server on Hamachi of popular game.
             </p>
           </div>
         </div>
@@ -46,10 +50,9 @@ export default function Timeline() {
           <div class='w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4'>
             <h1 class='text-white text-xl font-medium py-2'>2014</h1>
             <p class='text-gray-100 sm:text-sm text-xs'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-              corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-              quas omnis vero totam ullam, reprehenderit ratione pariatur
-              accusamus suscipit odit nostrum?
+              I started creating first HTML/CSS templates on allegro.pl for my
+              sellings auction. At this times i used a lot information from
+              google, and youtube tutorials.
             </p>
           </div>
         </div>
@@ -72,10 +75,9 @@ export default function Timeline() {
           <div class='w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4'>
             <h1 class='text-white text-xl font-medium py-2'>2020</h1>
             <p class='text-gray-100 sm:text-sm text-xs'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-              corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-              quas omnis vero totam ullam, reprehenderit ratione pariatur
-              accusamus suscipit odit nostrum?
+              I Started learning on Udemy.com with courses "samuraj
+              programowania" and others sources on youtube. I focused on getting
+              more knowledge Javascript, CSS and RWD.
             </p>
           </div>
         </div>
@@ -84,10 +86,9 @@ export default function Timeline() {
           <div class='w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4'>
             <h1 class='text-white text-xl font-medium py-2'>Futured</h1>
             <p class='text-gray-100 sm:text-sm text-xs'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-              corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-              quas omnis vero totam ullam, reprehenderit ratione pariatur
-              accusamus suscipit odit nostrum?
+              My main goal is skill in creating themes for
+              Wordpress(woocommerce) / Shopify / Prestashop. I planning to also
+              learn more about backend, security and blockchain.
             </p>
           </div>
         </div>

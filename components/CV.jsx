@@ -13,13 +13,13 @@ import Link from 'next/link'
 
 export default function CV() {
   return (
-    <div className='bg-[#464082] h-screen text-gray-300 flex justify-center overflow-hidden'>
+    <div className='bg-[#464082] min-h-screen text-gray-300 flex justify-center overflow-hidden'>
       <div className='absolute right-5 top-5 '>
         <Link href='/'>
           <AiOutlineCloseCircle className='closedico' />
         </Link>
       </div>
-      <div className='flex-col items-center content-around divide-y-2 py-6  '>
+      <div className='flex-col items-center content-around divide-y-2 py-6 lg:py-4  '>
         <div className='flex-col text-center font-extrabold '>
           <Image
             src={MyPhoto}
