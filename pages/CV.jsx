@@ -27,7 +27,6 @@ export default function CV() {
             className='object-cover w-[10rem] h-[10rem] rounded-full mx-auto border-4 grayscale'
           />
           <h1 className='text-[2.2rem] '>Malik Boguslaw</h1>
-          <p className='tracking-widest'>Junior Front-end Developer </p>
           <div className='grid grid-rows-3 grid-flow-col items-center mb-2'>
             <SiLinkedin className='contacticon' />
             <AiOutlineMail className='contacticon' />

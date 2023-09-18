@@ -79,6 +79,15 @@ export default function Skills() {
         </div>
       </div>
       <div>
+        <FcLinux className='reacticon' />
+        <h2>Linux</h2>
+        <div className='flex justify-center star'>
+          <Image src={Star} alt='Full Star icon' />
+          <Image src={Star} alt='Full Star icon' />
+          <Image src={EmptyStar} alt='Empty Star icon' />
+        </div>
+      </div>
+      <div>
         <AiFillGithub className='reacticon text-white ' />
         <h2>GitHub</h2>
         <div className='flex justify-center star'>
@@ -87,15 +96,7 @@ export default function Skills() {
           <Image src={EmptyStar} alt='Empty Star icon' />
         </div>
       </div>
-      <div>
-        <FcLinux className='reacticon' />
-        <h2>Linux</h2>
-        <div className='flex justify-center star'>
-          <Image src={Star} alt='Full Star icon' />
-          <Image src={HalfStar} alt='Half Star icon' />
-          <Image src={EmptyStar} alt='Empty Star icon' />
-        </div>
-      </div>
+      
       {/* <div>
         <BsWordpress className='reacticon  rounded-full' />
         <h2>Wordpress</h2>
