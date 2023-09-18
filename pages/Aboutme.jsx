@@ -22,21 +22,20 @@ export default function aboutme() {
       <div className='lg:w-[50%] text-gray-300 space-y-4 px-12 '>
         <h1 className='text-4xl font-bold'>A Few words about me.</h1>
         <p>
-          Hi, my name is Boguslaw, my story with programming, started over 10
-          years ago in middle school, when friend showed me the first code of
-          php and html. From then on, at every computer science classes , we
-          created something, just for fun. I remember, even HTML template at
-          this time was created by table. After High school, i started selling
-          different goods on Allegro.pl using dropshipping system. At that time,
-          Allegro was allowing users to use their own auction template, so i
-          decided to create my own one. After a couple of googling days I
-          created my first template, and later another one and another... Since
-          that time, I gained more motivation to develop projects, and to learn
-          more about programming. I finished a few different courses on udemy.
-          CS50 shared by Harvard institution, and simple like SoloLearn on
-          mobilephone. I want to take a step forward and have a chance to
-          improve my skills. My main area where i want to develop myself is
-          frontend of online stores or / and blockchain
+          Hello,
+
+I'm Boguslaw, and my journey in programming began over a decade ago during my middle school days. It all started when a friend introduced me to the world of PHP and HTML. In every computer science class thereafter, we would tinker with code and create things just for the fun of it. I still remember when HTML templates were built using tables!
+
+After high school, I embarked on a journey of selling various goods on Allegro.pl using the dropshipping system. During this time, Allegro allowed users to use their own auction templates, which led me to create my own templates. With some diligent Googling, I crafted my first template, and from there, I continued to develop more. This experience fueled my motivation to undertake more projects and expand my programming knowledge.
+
+Over the years, I completed several courses, including the renowned CS50 course offered by Harvard and simpler courses like SoloLearn on my mobile phone. Now, I'm ready to take the next step and further enhance my skills, particularly in the areas of cybersecurity administration and penetration testing.
+
+Additionally, I'll be starting my studies in computer science this October, which I believe will contribute significantly to my professional growth in the field of cybersecurity.
+
+I'm eager to bring my passion for security and expertise to your team and help enhance the company's cybersecurity measures.
+
+Warm regards,
+Boguslaw Malik
         </p>
       </div>
       <div className='absolute right-5 top-3 '>
